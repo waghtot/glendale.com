@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+
+body{
+padding-top:0px;
+}
+
+ul{
+    padding-left:15px;
+}
+
+li{
+    font-family:"Times";
+    font-size:120%;
+}
+
+input{
+    border-radius: 5px !important;
+    border:1px solid #2780E3 !important;
+}
+
+.logo_name{
+    font-family:'Limelight';
+    font-size:250%;
+    line-height:75%;
+    color:#05a194ff;
+}
+
+.logo_l1{
+    font-size:125.3%;
+    line-height:50%;
+    margin:15px 0px 10px 0px;
+}
+
+.logo_l2{
+    font-style:italic;
+    font-size:115%;
+    text-align: justify;
+    margin-bottom:10px;
+}
+
+.navbar-expand-lg, .navbar-collapse, .collapse{
+    justify-content: space-between !important;
+}
+
+.roofs{
+    background-image: url('../img/roofs-185525918.jpg');
+    background-position: center center;
+    background-size: 100%;
+}
+
+.rooferback{
+    background-image: url('../img/roofs-185525918.jpg');
+    /* background-image: url('../img/istockphoto-1006917700-2048x2048.jpg'); */
+    /* background-image: url('../img/538872918.jpg'); */
+    /* background-image: url('../img/istockphoto-120096444-2048x2048.jpg'); */
+    background-image: url('../img/istockphoto-1097975420-2048x2048.jpg');
+    /* background-position: center -250px; */
+    background-position: center bottom;
+    background-size: 100%;
+}
+
+.blue-background{
+    background-color: #2562c4;
+}
+
+.space-top{
+    padding-top:20px;
+}
+
+.space-both{
+    padding-top:40px;
+    padding-bottom:20px;
+}
+
+.backround-shadow{
+    box-shadow: 0px 0px 8px grey;   
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#2780E3 !important;
+}
+
+.jumbotron{
+    width:100%;
+}
+
+.news_thumbnail{
+    height:200px;
+    width:100%;
+}
+
+.border-shadow{
+    border-top:3px solid #fff !important;
+    border-bottom:3px solid #fff;
+    box-shadow:0px 0px 8px grey;
+}
+
+.dark-glass{
+    padding:30px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    border:1px solid #fff;
+    margin:30px 0px 30px 0px;
+}
+
+.on-right{
+    float:right;
+}
+
+
