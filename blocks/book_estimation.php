@@ -1,5 +1,5 @@
 <div class="col-lg-4 col-md-4 dark-glass on-right">
-    <h4 class="card-title">Book your free estimation</h4>    
+    <h3 class="card-title">Book your free estimation</h3>    
 
     <form id="booking" name="booking">
 

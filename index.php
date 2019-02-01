@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
     <link rel="stylesheet" href="/css/glendale.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+    <script src="js/booking.js"></script>
   </head>
   <body>
     <?php
@@ -31,22 +31,47 @@
                 // require_once "blocks/jumbotron.php";
             ?>
         </div> -->
-
-        <div class="container-fluid border-shadow" style="clear:both;">
-            <div class="row bg-primary space-both">
+        <div class="container-fluid " style="clear:both;">
+            <div class="row space-both">
                 <div class="container">
                     <?php
-                        require_once "blocks/info_section.php";
+                        require "blocks/about.php";
                     ?>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-                    <?php
-                        require_once "blocks/info_section.php";
+        <div class="container-fluid border-shadow" style="clear:both;">
+            <div class="row bg-primary space-both">
+                <div class="container">
+                <h1 class="display-3 white">Services</h1>
+                <?php
+                        require "blocks/info_section.php";
                     ?>
+                </div>
+            </div>
         </div>
+
+        <div class="container-fluid " style="clear:both;">
+            <div class="row space-both">
+                <div class="container">
+                <h1 class="display-3">Gallery</h1>
+                    <?php
+                        require "blocks/info_section.php";
+                    ?>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="clear:both;">
+            <div class="row bg-secondary space-both">
+                <div class="container">
+                    <?php
+                        require "blocks/footer.php";
+                    ?>
+                </div>
+            </div>
+        </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

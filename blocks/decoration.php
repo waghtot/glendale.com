@@ -7,8 +7,7 @@
     background-image: url('../img/chimneys-3.jpg');
     background-position: center center;
     background-size: 100%;"
-    
-    alt="Card image">
+    >
     <div class="card-body">
         <p class="card-text">
             <ul>
