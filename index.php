@@ -57,7 +57,17 @@
                 <div class="container">
                 <h1 class="display-3">Gallery</h1>
                     <?php
-                        require "blocks/info_section.php";
+                        require "blocks/gallery.php";
+                    ?>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-shadow bg-primary-light" style="clear:both;">
+            <div class="row space-both">
+                <div class="container">
+                <h1 class="display-3">Contact Us</h1>
+                    <?php
+                        require "blocks/enquiry.php";
                     ?>
                 </div>
             </div>

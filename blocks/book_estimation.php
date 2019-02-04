@@ -3,32 +3,32 @@
 
     <form id="booking" name="booking">
 
-    <div class="form-group">
-        <label for="Phone">Contact details</label>
-        <input type="text" class="form-control" id="u_phone" aria-describedby="phone" placeholder="Phone number" name="phone">
-    </div>
 
     <div class="form-group">
-        <label for="Email">or</label>
-        <input type="email" class="form-control" id="u_email" aria-describedby="emailHelp" placeholder="Email address" name="email">
-    </div>
-
-    <div class="form-group">
-    <label for="from">Best day</label>
-        <input type="date" value="" class="form-control" id="from_date" name="from" date-format="__/__/____" >
+        <label for="time" class="lead">Contact details</label>
+        <input type="text" value="" class="form-control" id="u_name" name="fullname" placeholder="Full Name" required>
     </div>
     <div class="form-group">
-
-    <div class="form-row">
-        <div class="col-6">
-        <label for="time">Best time</label>
-        <input type="time" value="" class="form-control" id="from_time" name="fromt">
-        </div>
-        <div class="col-6">
-        <label for="timeto">&nbsp;</label>
-        <input type="time" value="" class="form-control" id="to_time" name="tot" placeholder="time to">
+        <div class="form-row">
+            <div class="col-6">
+            <input type="email" class="form-control" id="u_email" aria-describedby="emailHelp" placeholder="Email address" name="email" required>
+            </div>
+            <div class="col-6">
+            <input type="text" value="" class="form-control postcode" id="to_phone" name="phone" placeholder="Phone Number">
+            </div>
         </div>
     </div>
+    <div class="form-group">
+        <div class="form-row">
+            <div class="col-6">
+                <label for="date" class="lead">Choose a date</label>
+                <input type="date" value="" class="form-control" id="from_date" name="from" date-format="__/__/____" >
+            </div>
+            <div class="col-6">
+            <label for="time" class="lead">Location</label>
+                <input type="text" value="" class="form-control postcode" id="to_postcode" name="postcode" placeholder="PostCode" required>
+            </div>
+        </div>
     </div>
         <button id="book" class="btn btn-md btn-secondary btn-right">Book Now</button>
     </form>

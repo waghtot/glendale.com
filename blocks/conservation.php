@@ -1,6 +1,6 @@
 <div class="card mb-3">
     <h3 class="card-header">
-        Conservation
+        Preservation
     </h3>
     <img class="news_thumbnail" 
     style="
@@ -10,9 +10,9 @@
     <div class="card-body">
         <p class="card-text">
             <ul>
-                <li>Moss removal and roofing cleaning</li>
-                <li>Gutter cleaning</li>
-                <li>Gutter replacement</li>
+                <li>Moss removal</li>
+                <li>Roofing cleaning</li>
+                <li>Gutter replacement / cleaning</li>
             </ul>
         </p>
     </div>
