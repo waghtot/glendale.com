@@ -17,7 +17,7 @@
         require_once "blocks/navi.php";
     ?>
         <div class="container-fluid rooferback">
-            <div class="row rooferback">
+            <div class="row">
             <div class="container">
                 <?php
                     require_once "blocks/book_estimation.php";
