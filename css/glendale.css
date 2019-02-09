@@ -82,7 +82,7 @@ input, textarea{
     margin-top:-15px;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, .blue-bold, .blue-special{
     color:#2780E3 !important;
 }
 
@@ -146,4 +146,40 @@ h1, h2, h3, h4, h5, h6{
 
 .bg-white{
     background:#fff;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.medium, .medium:hover{
+    font-size: 160%;
+    color:#959595 !important;
+}
+
+.medium:hover{
+    color:#abccf7 !important;
+    text-decoration:none;
+}
+
+.space-inside{
+    padding:20px 0px 10px 0px;
+}
+
+.blue-bold{
+    font-weight: 500;
+}
+
+.blue-special{
+    font-size:250%;
+}
+
+.left{
+    /* clear: both; */
+    float: left;
+}
+
+.right{
+    /* clear: both; */
+    float: right;
 }

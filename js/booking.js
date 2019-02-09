@@ -1,28 +1,34 @@
-var d = new Date();
-var H = d.getHours();
-var M = roundedMinutes(d.getMinutes());
+var booking = {
 
-document.booking.fromt.value = H + ':' + M;
-document.booking.tot.value = (H+1) + ':' + M;
+    bookform: function(){
 
+        $(document).on("click", "#u_book", this.validateForm );
 
-function roundedMinutes(inminute){
-    do {inminute ++;}
-    while (inminute % 5 !== 0){
-        if(inminute == 60){
-            inminute = '00';
+    },
+    validateForm : function (){
+
+        var email = $('#u_email').val();
+        var phone = $('#u_phone').val();
+
+        if(email !=='' || phone !==''){
+
+            console.log(email);
+            console.log(phone);
+            return true;
+
+        }else{
+
+            return false;
+
         }
-        return inminute;
-    }
-}
-
-function validateContact(){
-    var phone = document.booking.phone.value.trim();
-    var email = document.booking.email.value.trim();
-    if(phone == '' && email ==''){
-        return false;
-    }else{
-        return true;
-    }
+    },
 
 }
+
+var init = function (){
+
+    booking.bookform();
+
+}
+
+init();
