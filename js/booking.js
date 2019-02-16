@@ -10,10 +10,7 @@ var booking = {
         var email = $('#u_email').val();
         var phone = $('#u_phone').val();
 
-        if(email !=='' || phone !==''){
-
-            console.log(email);
-            console.log(phone);
+        if((email !=='' && booking.emailValidation(email) == true) || (phone !=='' && booking.phoneValidation(phone) == true)){
             return true;
 
         }else{
@@ -22,6 +19,22 @@ var booking = {
 
         }
     },
+    emailValidation : function(data){
+        state = '';
+        state = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(data);
+        if(state !== true){
+            console.log('incorrect email adrress, something missing');
+        }
+        return state;
+    },
+    phoneValidation : function(data){
+        state = '';
+        state = /^([0-9]{10,14})+$/.test(data);
+        if(state !== true){
+            console.log('something wrong with your phone number');
+        }
+        return state; 
+    }
 
 }
 

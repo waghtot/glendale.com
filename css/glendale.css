@@ -183,3 +183,16 @@ h1, h2, h3, h4, h5, h6, .blue-bold, .blue-special{
     /* clear: both; */
     float: right;
 }
+
+#success_modal{
+    display:none;
+    background: #05a194ff;
+    border: 1px solid #05a194ff;
+    width:300px;
+    height:180px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top: -90px;
+    margin-left: -150px;
+}

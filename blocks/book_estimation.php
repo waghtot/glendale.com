@@ -33,6 +33,5 @@
         <button id="u_book" class="btn btn-md btn-secondary btn-right">Book Now</button>
     </form>
 </div>
-<div id="resp"></div>
-
+<div id='success_modal'>lalaa</div>
 
