@@ -2,7 +2,7 @@
     <h3 class="card-header">
         Roofing
     </h3>
-    <img class="news_thumbnail" src="../img/roof.jpg" alt="Card image">
+    <img class="news_thumbnail" src="./img/roof.jpg" alt="Card image">
     <div class="card-body">
         <p class="card-text">
             <ul>

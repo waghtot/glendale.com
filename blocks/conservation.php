@@ -4,7 +4,7 @@
     </h3>
     <img class="news_thumbnail" 
     style="
-    background-image: url('../img/guttering.jpeg');
+    background-image: url('./img/guttering.jpeg');
     background-position: center center;
     background-size: 100%;">
     <div class="card-body">

@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.css" media="screen">
     <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
-    <link rel="stylesheet" href="/css/glendale.css" />
+    <link rel="stylesheet" href="css/glendale.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="js/booking.js"></script> -->
   </head>

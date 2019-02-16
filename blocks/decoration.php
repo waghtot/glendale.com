@@ -4,7 +4,7 @@
     </h3>
     <img class="news_thumbnail"
     style="
-    background-image: url('../img/chimneys-3.jpg');
+    background-image: url('./img/chimneys-3.jpg');
     background-position: center center;
     background-size: 100%;"
     >
