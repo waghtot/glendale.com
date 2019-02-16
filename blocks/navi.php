@@ -11,10 +11,6 @@
         <a class="p-2 medium" href="#Services">Services</a>
         <a class="p-2 medium" href="#Gallery">Gallery</a>
         <a class="p-2 medium" href="#Contact">Contact</a>
-        <!-- <a class="p-2 text-dark medium" href="#About_Us">About Us</a>
-        <a class="p-2 text-dark medium" href="#Services">Services</a>
-        <a class="p-2 text-dark medium" href="#Gallery">Gallery</a>
-        <a class="p-2 text-dark medium" href="#Contact">Contact</a> -->
       </nav>
     </div>
   </div>
