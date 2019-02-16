@@ -20,32 +20,13 @@
         require_once "blocks/about.php";
 
         require "blocks/services.php";
+ 
+        require "blocks/gallery.php";
+
+        require "blocks/enquiry.php";
+
+        require "blocks/footer.php";
     ?>
-
-        <div class="container-fluid " style="clear:both;" id="Gallery">
-            <div class="row space-both">
-                <div class="container">
-                <h1 class="display-3">Gallery</h1>
-                    <?php
-                        require "blocks/gallery.php";
-                    ?>
-                </div>
-            </div>
-        </div>
-
-                    <?php
-                        require "blocks/enquiry.php";
-                    ?>
-
-        <div class="container-fluid" style="clear:both;">
-            <div class="row bg-secondary space-both">
-                <div class="container">
-                    <?php
-                        require "blocks/footer.php";
-                    ?>
-                </div>
-            </div>
-        </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

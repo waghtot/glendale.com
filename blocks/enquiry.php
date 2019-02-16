@@ -1,4 +1,4 @@
-<div class="container-fluid border-shadow bg-primary-light" style="clear:both;" id="Contact">
+<div class="container-fluid border-shadow bg-primary-light space-down-30" style="clear:both;" id="Contact">
     <div class="row space-both">
         <div class="container">
             <h1 class="display-3">Contact</h1>
