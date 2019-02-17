@@ -6,8 +6,7 @@
       </div>
       <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 ">
         <p class="lead center space-down-30">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        Glendale Property Services LTD offers quality roofing services in West London to residential and commercial customers.<br>We are reputable family run company with a portfolio of happy customers.<br>We always strive to complete the job to the highest standards.        </p>
         <!-- <p class="display-4 center blue-special">
           Full public liability insurance
         </p> -->
