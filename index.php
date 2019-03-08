@@ -13,19 +13,19 @@
   </head>
   <body>
     <?php
-        require_once "blocks/navi.php";
+        // require_once "blocks/navi.php";
 
-        require_once "blocks/book_estimation.php";
+        // require_once "blocks/book_estimation.php";
 
-        require_once "blocks/about.php";
+        // require_once "blocks/about.php";
 
-        require "blocks/services.php";
+        // require "blocks/services.php";
  
-        require "blocks/gallery.php";
+        // require "blocks/gallery.php";
 
-        require "blocks/enquiry.php";
+        // require "blocks/enquiry.php";
 
-        require "blocks/footer.php";
+        // require "blocks/footer.php";
     ?>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
